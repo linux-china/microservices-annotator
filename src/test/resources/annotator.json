@@ -1,0 +1,81 @@
+{
+  "interactions": [
+    {
+      "language": "JVM",
+      "className": "java.nio.file.Files",
+      "methodName": "createTempFile",
+      "argsCount": 3,
+      "interactionType": "FILESYSTEM"
+    },
+    {
+      "language": "JVM",
+      "className": "com.fasterxml.jackson.databind.ObjectWriter",
+      "methodName": "writeValueAsString",
+      "argsCount": 1,
+      "interactionType": "IO_WRITE"
+    },
+    {
+      "language": "JVM",
+      "className": "java.util.Properties",
+      "methodName": "load",
+      "argsCount": 1,
+      "interactionType": "IO_READ"
+    },
+    {
+      "language": "JVM",
+      "className": "java.lang.ProcessBuilder",
+      "methodName": "start",
+      "argsCount": 0,
+      "interactionType": "RUN_PROCESS"
+    },
+    {
+      "language": "JVM",
+      "className": "java.sql.Statement",
+      "methodName": "executeUpdate",
+      "argsCount": 1,
+      "interactionType": "DATABASE"
+    },
+    {
+      "language": "JVM",
+      "className": "io.micronaut.websocket.WebSocketBroadcaster",
+      "methodName": "broadcast",
+      "argsCount": 2,
+      "interactionType": "BROADCAST"
+    },
+    {
+      "language": "JVM",
+      "className": "java.net.http.HttpClient",
+      "methodName": "send",
+      "argsCount": 2,
+      "interactionType": "REQUEST"
+    },
+    {
+      "language": "JVM",
+      "className": "org.springframework.mail.javamail.JavaMailSender",
+      "methodName": "send",
+      "argsCount": 1,
+      "interactionType": "MESSAGE_SEND"
+    },
+    {
+      "language": "JVM",
+      "className": "javax.jms.MessageConsumer",
+      "methodName": "setMessageListener",
+      "argsCount": 1,
+      "interactionType": "MESSAGE_RECEIVE"
+    },
+    {
+      "language": "JVM",
+      "className": "io.micronaut.websocket.WebSocketBroadcaster",
+      "methodName": "broadcast",
+      "argsCount": 2,
+      "interactionType": "BROADCAST"
+    },
+    {
+      "language": "JVM",
+      "className": "org.apache.camel.model.ProcessorDefinition",
+      "methodName": "split",
+      "argsCount": 2,
+      "interactionType": "STREAMING"
+    }
+  ]
+}
