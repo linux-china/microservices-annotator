@@ -9,7 +9,7 @@
     <version>0.1.0-SNAPSHOT</version>
 
     <name>microservices-annotator</name>
-    <description>Annotations for Microservices annotator to mark your code</description>
+    <description>Annotations for Microservices Annotator to help you mark code</description>
     <url>https://github.com/linux-china/microservices-annotator</url>
 
     <properties>
