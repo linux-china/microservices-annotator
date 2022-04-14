@@ -19,6 +19,29 @@ Java annotations for [Microservices Annotator Plugin](https://plugins.jetbrains.
 * External Process: @ExternalProcess
 * WebSocket
 
+# How to use?
+
+* Add following dependency in pom.xml
+
+```xml
+
+<dependency>
+    <groupId>org.mvnsearch</groupId>
+    <artifactId>microservices-annotator</artifactId>
+    <version>0.1.0</version>
+</dependency>
+```
+
+* Annotate code with annotations
+
+```java
+
+@RemoteAccess
+public interface UserService {
+    String findNickById(Integer id);
+}
+```
+
 # References
 
 * Microservices Annotator Plugin: https://plugins.jetbrains.com/plugin/18361-microservices-annotator
