@@ -43,5 +43,6 @@ public interface UserService {
 ```
 
 # References
-
+             
+* Microservices Annotator ext-plugin: https://github.com/linux-china/microservices-annotator-ext-plugin
 * Microservices Annotator Plugin: https://plugins.jetbrains.com/plugin/18361-microservices-annotator
