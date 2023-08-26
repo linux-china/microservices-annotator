@@ -32,13 +32,20 @@ Java annotations for [Microservices Annotator Plugin](https://plugins.jetbrains.
 </dependency>
 ```
 
-* Annotate code with annotations
+* Annotate code with annotations: Annotate class, field or method parameter.
 
 ```java
 
 @RemoteAccess
 public interface UserService {
     String findNickById(Integer id);
+}
+```
+
+```java
+public class UserController {
+    @RemoteAccess
+    private UserService userService;
 }
 ```
 
