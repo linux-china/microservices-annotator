@@ -17,6 +17,7 @@ Java annotations for [Microservices Annotator Plugin](https://plugins.jetbrains.
 * Streaming: @Streaming
 * Network Request: @RemoteAccess
 * External Process: @ExternalProcess
+* JNI/FFI(Foreign Function Interface) Call: @ForeignAccess
 * WebSocket
 
 # How to use?
