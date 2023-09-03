@@ -6,7 +6,7 @@ import java.lang.annotation.*;
  * JNI/FFI access.
  *
  * @author linux_china
- * @see <a href="https://openjdk.java.net/jeps/442">JEP 442: Foreign Function & Memory API</a>
+ * @see <a href="https://openjdk.java.net/jeps/442">JEP 442: Foreign Function &amp; Memory API</a>
  * @see <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/jni/">Java Native Interface</a>
  */
 @Documented
