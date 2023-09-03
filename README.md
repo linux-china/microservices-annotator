@@ -18,7 +18,7 @@ Java annotations for [Microservices Annotator Plugin](https://plugins.jetbrains.
 * Network Request: @RemoteAccess
 * External Process: @ExternalProcess
 * JNI/FFI(Foreign Function Interface) Call: @ForeignAccess
-* WebSocket
+* WebSocket: please use `@RemoteAccess("websocket")`
 
 # How to use?
 
@@ -29,7 +29,7 @@ Java annotations for [Microservices Annotator Plugin](https://plugins.jetbrains.
 <dependency>
     <groupId>org.mvnsearch</groupId>
     <artifactId>microservices-annotator</artifactId>
-    <version>0.2.0</version>
+    <version>0.2.1</version>
 </dependency>
 ```
 
