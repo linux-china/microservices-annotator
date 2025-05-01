@@ -5,31 +5,32 @@ Java annotations for [Microservices Annotator Plugin](https://plugins.jetbrains.
 
 # Microservices Annotator interaction types
 
-* Broadcast Data transmission: @Broadcast
-* Cloud Storage Access: @CloudStorage
-* Database Access: @DatabaseAccess
-* Data Access: @DataAccess
-* File System Operations: @FileOps
-* IO Read: @IORead
-* IO Write: @IOWrite
-* Message Receive: @MessageReceive
-* Message Send: @MessageSend
-* Streaming: @Streaming
-* Network Request: @RemoteAccess
-* External Process: @ExternalProcess
-* JNI/FFI(Foreign Function Interface) Call: @ForeignAccess
+* Broadcast Data transmission: `@Broadcast`
+* Cloud Storage Access: `@CloudStorage`
+* Database Access: `@DatabaseAccess`
+* Data Access: `@DataAccess`
+* AI Access: `@AiAccess`
+* File System Operations: `@FileOps`
+* IO Read: `@IORead`
+* IO Write: `@IOWrite`
+* Message Receive: `@MessageReceive`
+* Message Send: `@MessageSend`
+* Streaming: `@Streaming`
+* Network Request: `@RemoteAccess`
+* External Process: `@ExternalProcess`
+* JNI/FFI(Foreign Function Interface) Call: `@ForeignAccess`
 * WebSocket: please use `@RemoteAccess("websocket")`
 
 # How to use?
 
-* Add following dependency in pom.xml
+* Add the following dependency in pom.xml
 
 ```xml
 
 <dependency>
     <groupId>org.mvnsearch</groupId>
     <artifactId>microservices-annotator</artifactId>
-    <version>0.2.1</version>
+    <version>0.2.2</version>
 </dependency>
 ```
 
