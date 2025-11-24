@@ -10,6 +10,7 @@ Java annotations for [Microservices Annotator Plugin](https://plugins.jetbrains.
 * Database Access: `@DatabaseAccess`
 * Data Access: `@DataAccess`
 * AI Access: `@AiAccess`
+* AI Ignore for a method body: `@AiIgnore`
 * File System Operations: `@FileOps`
 * IO Read: `@IORead`
 * IO Write: `@IOWrite`
