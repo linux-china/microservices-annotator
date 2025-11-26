@@ -31,7 +31,7 @@ Java annotations for [Microservices Annotator Plugin](https://plugins.jetbrains.
 <dependency>
     <groupId>org.mvnsearch</groupId>
     <artifactId>microservices-annotator</artifactId>
-    <version>0.2.2</version>
+    <version>0.2.3</version>
 </dependency>
 ```
 
